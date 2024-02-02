@@ -1,0 +1,149 @@
+
+body, html{
+    width: 1920px;
+}
+.content{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 51px;
+    margin-top: 2%;
+}
+.logo{
+    color: #000000;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    
+    float: left;
+    width: 485px;
+}
+.logo img{
+    width:35px;
+    height:40px;
+    top:40px ;
+    left:375px ;
+}
+.logo span{
+    color: #f25822;
+  font-family: "GilroyBold-☞", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 685px;
+    height: 51px;
+    float: right;
+}
+.menu a{
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+}
+a.btn.start{
+    position: relative;
+    left: 0px;
+    top: 365px;
+}
+ a.btn.start:hover{
+    background-color: #974e33;
+    color: white;
+    font-family: "GilroySemiBold-☞", sans-serif; 
+}
+a.btn{
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 14px;
+    
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    height: 50px;
+    width: 140px;
+    border-radius: 32px;
+    background-color: #F25822;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.menu a:hover{
+    background-color: #974e33;
+    color: white;
+    font-family: "GilroySemiBold-☞", sans-serif; 
+}
+.title-slide{
+    height: 440px;
+    width: 100%;
+    display: flex;
+    margin-top: 65px;
+    justify-content: center;
+}
+.title-slide .img-slide{
+    width: 610px ;
+    height: 373px;
+}
+.title-slide .text-slide{
+    width: 543px;
+    height: 374px;
+}
+.big-size{
+    color: #000000;
+  text-align: left;
+  font-family: "GilroyBold-☞", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 397px;
+  top: 150px;
+}
+.min-size{
+    color: #888888;
+  text-align: left;
+  font-family: "GilroyMedium-☞", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 397px;
+  top: 410px;
+}
+.video-player{
+    position: relative;
+    top: 315px;
+    height: 50px;
+    width: 135px;
+    left: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.video-icon{
+    color: #aaaaaa;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.brands{
+    height: 50px;
+    width: 1170px;
+    height: 50px;
+    width: 1170px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
